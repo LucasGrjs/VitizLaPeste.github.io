@@ -7,6 +7,10 @@
  ************************************************************************/
 document.addEventListener("DOMContentLoaded", function (_e) {
 
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('app.js');
+    };
+
 
     var cacheName = "ginko-v1";
     var contentToCache = [];

@@ -56,13 +56,14 @@
       {
         "src": "/icons/maskable_icon.png",
         "type": "image/png",
-        "sizes": "274x274"
+        "sizes": "274x274",
+        "purpose": "any maskable"
       }
     ],
 
     "start_url": "/",
     "background_color": "#3367D6",
-    "display": "standalone",
+    "display": "fullscreen",
     "scope": "/",
     "theme_color": "#3367D6",
     "shortcuts": [
